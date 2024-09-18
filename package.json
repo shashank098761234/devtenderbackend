@@ -1,0 +1,15 @@
+{
+  "name": "devtenderbackend",
+  "version": "1.0.0",
+  "description": "devtender for dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "shashank",
+  "license": "ISC"
+}
