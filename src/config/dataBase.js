@@ -7,11 +7,3 @@ const connectDb = async () => {
 };
 
 module.exports = connectDb;
-
-// connectDb()
-//   .then(() => {
-//     console.log("Database connection success");
-//   })
-//   .catch((err) => {
-//     console.log("ERROR>>>", err);
-//   });
