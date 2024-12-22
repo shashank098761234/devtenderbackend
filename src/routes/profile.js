@@ -19,6 +19,7 @@ profileRouter.get("/profile/view", userAuth, async (req, res) => {
 profileRouter.patch("/profile/edit", userAuth, async (req, res) => {
   try {
     if (!validateEditprofileData(req)) {
+      console.log("req>>>>>>", req?.user?.firstName);
       throw new Error("Invalid Edit request");
     }
     const loggedInUser = req.user;
